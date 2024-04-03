@@ -20,7 +20,7 @@ function DiscoButton() {
   };
 
   return ( // interresting, style={buttonStyle} updates if only the color update :D
-    <button className="like-button" onClick={handleClick} style={buttonStyle}> 
+    <button type="button" className="like-button" onClick={handleClick} style={buttonStyle} > 
       {likes} Likes
     </button>
   );

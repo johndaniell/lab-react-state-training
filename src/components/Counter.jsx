@@ -8,9 +8,9 @@ function Counter (){
    
     return (
         <div className="counter-container">
-        <button className="button-counter" onClick={handleCOunter(false)}>-</button>
+        <button type="button"  className="button-counter" onClick={handleCOunter(false)}>-</button>
         {count}
-        <button className="button-counter" onClick={handleCOunter(true)}>+</button>
+        <button type="button" className="button-counter" onClick={handleCOunter(true)}>+</button>
       </div>
     )
 }

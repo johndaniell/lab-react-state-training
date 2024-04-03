@@ -40,6 +40,7 @@ function Dice() {
       setDiceImages(images);
       setCurrentDice(images[Math.ceil(Math.random() * 6)]); // Start with the first dice image
     });
+    
   }, []); // The empty array means this effect runs once on mount
 
   const rollDice = async () => {

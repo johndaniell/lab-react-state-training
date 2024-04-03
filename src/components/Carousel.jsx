@@ -30,9 +30,9 @@ function Carousel({ basePath, count }) {
   
     return (
       <div>
-        <button onClick={goLeft}>Left</button>
+        <button type="button"  onClick={goLeft}>Left</button>
         <img src={images[currentIndex]} alt={`Carousel ${currentIndex}`} />
-        <button onClick={goRight}>Right</button>
+        <button type="button"  onClick={goRight}>Right</button>
       </div>
     );
   }
